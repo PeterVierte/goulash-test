@@ -1,0 +1,19 @@
+body {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--black);
+  background: var(--bg-color);
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@media (max-width: 640px) {
+  body {
+    background: var(--white);
+  }
+}
